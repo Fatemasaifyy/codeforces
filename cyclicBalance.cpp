@@ -56,7 +56,7 @@ int main() {
             int cyclic10 = cnt10;
 
             // Closing pair: s[r] -> s[l]
-            if (s[r - 1] == '0' && sl - 1] == '1')
+            if (s[r - 1] == '0' && s[l] - 1 == '1')
                 cyclic01++;
 
             if (s[r - 1] == '1' && s[l - 1] == '0')
